@@ -1,15 +1,9 @@
-%foo--disabled {
-  &.disabled, &[disabled] {
-    &, &:hover {
-      color: red;
-    }
+%foo--bar {
+  &, &.bar {
+    color: red;
   }
 }
 
-.foo-btn {
-  @extend %foo--disabled;
-
-  &:hover {
-    color: blue;
-  }
+.foo {
+  @extend %foo--bar;
 }
