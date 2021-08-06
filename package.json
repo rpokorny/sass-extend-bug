@@ -1,0 +1,16 @@
+{
+  "name": "sass-extend-bug",
+  "version": "1.0.0",
+  "description": "Demonstration of a bug found within the behavior of @extends in the sass package",
+  "main": "index.js",
+  "author": "Ross Pokorny <rpokorny@sonatype.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass index.scss",
+    "node-sass-build": "node-sass index.scss"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.37.5"
+  }
+}
